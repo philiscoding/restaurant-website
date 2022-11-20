@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-red: #e26246;
+    --light-red: #ef7c63#;
+    --pink: #f3afa0;
+    --white: #fcfaff;
+}
+
+
+body {
+    margin: 0 auto;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: var(--white);
+}
+
+section {
+    padding: 10px 60px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* LANDING SECTION */
+.landing-section {
+    background-color: var(--dark-red);
+    color: var(--white);
+    position: relative;
+    padding: 30px 30px 10px 30px;
+
+}
+
+.landing-section nav {
+    height: 60px;
+}
+
+.landing-section nav>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-text {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.landing-section nav>div>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.landing-section nav>div>ul li {
+    list-style-type: none;
+
+}
+
+.landing-section nav>div>ul li:hover {
+    cursor: pointer;
+}
+
+.landing-section nav>div>button {
+    color: white;
+    background-color: var(--dark-red);
+    width: 120px;
+    height: 35px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+.landing-section img {
+    width: 400px;
+    position: relative;
+    bottom: -15px;
+
+
+}
+
+.heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin: 0 auto;
+    padding: 100px;
+    max-width: 50%;
+
+}
+
+.heading-wrapper h1 {
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+.heading-wrapper button {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
+    margin: 0 auto;
+}
+
+/* CAROUSEL SECTION */
+.mid-section {
+    padding: 100px;
+
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 0;
+    padding: 50px;
+}
+
+.carousel div {
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    background-color: rgb(247, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+.mid-section div :hover {
+    background-color: var(--dark-red);
+    color: white;
+}
+
+.carousel img {
+    width: 60px;
+
+}
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 100px;
+    background-color: var(--dark-red);
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 600px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer p {
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+footer button {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 45px;
+    border: none;
+    margin: 0 auto;
+}
+
+.credit {
+    font-size: 0.7em;
+}
