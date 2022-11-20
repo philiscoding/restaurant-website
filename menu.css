@@ -1,0 +1,31 @@
+.card-container {
+
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-align: left;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--white);
+    background-color: var(--dark-red);
+
+
+}
+
+.card img {
+    width: 120px;
+}
